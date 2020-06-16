@@ -1,0 +1,73 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.Header-wapper{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(173, 169, 169);
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    
+}
+.contain-wapper{
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+
+}
+.containt-wapper-inner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+
+}
+article{
+    width: 60%;
+    margin-top:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+aside{
+    width: 40%;
+    margin-top:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.round-border{
+    background-color: blanchedalmond;
+    width: 80%;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 5px;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    
+}
+.form-element{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    height: auto;
+
+}
+.form-element-inner{
+    height: auto;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
